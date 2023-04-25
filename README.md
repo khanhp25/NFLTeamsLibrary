@@ -11,7 +11,7 @@
 
 #### Takes an NFL division as a parameter and returns the stadium in the division with the highest capacity
 ##### @param division(string) - the user's desired NFL division
-##### @return stadium[maxIndex](string) - returns the stadium with the largest capacity in the entered division
+##### @return stadium[maxIndex] (string) - returns the stadium with the largest capacity in the entered division
 **function findMaxCapactiy(division)**
 
 #### Takes an NFL division as a parameter and returns the average capacity of the stadiums in the divison
