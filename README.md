@@ -9,10 +9,10 @@
 ###### @return matches (list) - returns a list of all of the stadiums in the entered division
 **`function getStadiumsInDivision(division)`**
 
-##### Takes an NFL division as a parameter and returns the stadium in the division with the highest capacity
+##### Takes an NFL division as a parameter and returns the stadium in the division with the lowest capacity
 ###### @param division (string) - the user's desired NFL division
-###### @return stadium[maxIndex] (string) - returns the stadium with the largest capacity in the entered division
-**`function findMaxCapacity(division)`**
+###### @return stadium[maxIndex] (string) - returns the stadium with the lowest capacity in the entered division
+**`function findLowestCapacity(division)`**
 
 ##### Takes an NFL division as a parameter and returns the average capacity of the stadiums in the divison
 ###### @param division (string) - the user's desired NFL division
@@ -22,4 +22,4 @@
 ##### Takes an NFL division as a parameter and returns the number of teams in the entered division
 ###### @param division (string) - the user's desired NFL division
 ###### @return count.length (number) - returns the total number of teams in the entered NFL division
-**`function getAppear(division)`**
+**`function getTotalStadiums(division)`**
